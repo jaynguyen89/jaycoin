@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "ES2015",
+    "sourceMap": true,
+    "jsx": "react"
+  },
+  "include": [
+    "src/main.tsx",
+    "src/crypto/blockchain.tsx",
+    "src/helper/constants.tsx",
+    "src/network/http_network.tsx",
+    "src/crypto/interfaces.tsx",
+    "src/wallet.ts",
+    "src/crypto/pooling.tsx",
+    "src/helper/utility.tsx",
+    "src/crypto/transaction.tsx",
+    "src/network/peers_network.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
